@@ -13,7 +13,7 @@ Usage
 
 ```javascript
 $(window).konami(function() {
-	alert('You did the Konami!').
+	alert('You did the Konami!');
 })
 ```
 
