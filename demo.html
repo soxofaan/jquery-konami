@@ -1,0 +1,26 @@
+<html>
+    <meta charset="utf-8">
+
+    <title>jQuery Konami Demo</title>
+    <meta name="description" content="jQuery Konami plugin demo">
+
+
+</head>
+<body>
+
+    <p>Do the Konami (&uarr; &uarr; &darr; &darr; &larr; &rarr; &larr; &rarr; b a) and create content:</p>
+    <ol id="content">
+    </ol>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="jquery.konami.js"></script>
+
+    <script>
+        $(window).konami(function() {
+            $('#content').append('<li>Konami!</li>');
+        });
+    </script>
+
+</body>
+</html>
